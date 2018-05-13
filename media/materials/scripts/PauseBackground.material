@@ -1,0 +1,19 @@
+// BasicMaterial1 genrated by blender2ogre 0.5.9
+
+material PauseBackground
+{
+	technique
+    {
+       pass
+        {
+		lighting off
+		depth_write off
+		scene_blend alpha_blend
+		
+          texture_unit
+          {
+            texture BlackTrans.png
+          }
+       }   
+    }
+}

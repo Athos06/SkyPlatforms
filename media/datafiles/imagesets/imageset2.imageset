@@ -1,0 +1,26 @@
+<Imageset AutoScaled="false" Imagefile="imageset2.png" Name="imageset2" NativeHorzRes="1024" NativeVertRes="768">
+    <Image Height="401" Name="tittle" Width="513" XPos="64" YPos="27" />
+    <Image Height="50" Name="blackBG" Width="50" XPos="965" YPos="10" />
+    <Image Height="94" Name="lvl1Normal" Width="89" XPos="722" YPos="195" />
+    <Image Height="94" Name="lvl1Hover" Width="89" XPos="722" YPos="293" />
+    <Image Height="94" Name="lvl1Disabled" Width="89" XPos="722" YPos="97" />
+    <Image Height="94" Name="lvl1Clicked" Width="89" XPos="722" YPos="390" />
+    <Image Height="94" Name="lvl3Normal" Width="89" XPos="819" YPos="195" />
+    <Image Height="94" Name="lvl3Hover" Width="89" XPos="819" YPos="293" />
+    <Image Height="94" Name="lvl3Disabled" Width="89" XPos="819" YPos="97" />
+    <Image Height="94" Name="lvl3Clicked" Width="89" XPos="819" YPos="390" />
+    <Image Height="94" Name="lvlBossNormal" Width="89" XPos="916" YPos="195" />
+    <Image Height="94" Name="lvlBossHover" Width="89" XPos="916" YPos="293" />
+    <Image Height="94" Name="lvlBossDisabled" Width="89" XPos="916" YPos="97" />
+    <Image Height="94" Name="lvlBossClicked" Width="89" XPos="916" YPos="390" />
+    <Image Height="94" Name="lvl2Clicked" Width="89" XPos="619" YPos="390" />
+    <Image Height="94" Name="lvl2Disabled" Width="89" XPos="619" YPos="97" />
+    <Image Height="94" Name="lvl2Hover" Width="89" XPos="619" YPos="292" />
+    <Image Height="94" Name="lvl2Normal" Width="89" XPos="619" YPos="195" />
+    <Image Height="116" Name="moveControls" Width="176" XPos="21" YPos="627" />
+    <Image Height="176" Name="pitchControl" Width="50" XPos="227" YPos="580" />
+    <Image Height="69" Name="yawControl" Width="149" XPos="298" YPos="634" />
+    <Image Height="81" Name="zoomControl" Width="50" XPos="483" YPos="623" />
+    <Image Height="63" Name="esc" Width="62" XPos="551" YPos="620" />
+    <Image Height="58" Name="space" Width="108" XPos="547" YPos="685" />
+</Imageset>

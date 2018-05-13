@@ -1,0 +1,6 @@
+<Imageset AutoScaled="false" Imagefile="creditsIMG2.png" Name="Credits2" NativeHorzRes="1024" NativeVertRes="768">
+    <Image Height="512" Name="credits5" Width="512" XPos="0" YPos="0" />
+    <Image Height="512" Name="credits6" Width="512" XPos="512" YPos="0" />
+    <Image Height="512" Name="credits7" Width="512" XPos="0" YPos="512" />
+    <Image Height="512" Name="credits8" Width="512" XPos="512" YPos="512" />
+</Imageset>

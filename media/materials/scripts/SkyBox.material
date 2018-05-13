@@ -1,0 +1,16 @@
+material skybox
+{
+	technique
+	{
+		pass
+		{
+	
+			texture_unit
+			{
+				cubic_texture SkyboxFront.png SkyboxBack.png SkyboxLeft.png SkyboxRight.png SkyboxTop.png SkyboxBottom.png separateUV
+				scale 1 1
+				tex_address_mode clamp
+			}
+		}
+	}
+}

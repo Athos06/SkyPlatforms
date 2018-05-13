@@ -1,0 +1,24 @@
+<GUILayout>
+    <Window Name="GameCompleteRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="GameCompleteRoot/GameOverImg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0.000488289,0},{-0.215495,0},{0.665528,0},{-0.0305994,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:GameOver" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="GameCompleteRoot/YouHaveFinished" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.0566406,0},{0.642578,0},{0.0292969,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:gameFinished" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,26 @@
+<GUILayout>
+    <Window Name="SplashScreenRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+		<Window Name="SplashScreenRoot/StaticImage" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0.0224609,0},{-0.00455729,0},{0.741211,0},{0.767578,0}}" />
+            <Property Name="Image" Value="set:imageset2 image:tittle" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+		<Window Name="SplashScreenRoot/StaticText" Type="TaharezLook/StaticText">
+            <Property Name="UnifiedAreaRect" Value="{{-0.000976622,0},{0.330729,0},{0.483398,0},{0.447917,0}}" />
+            <Property Name="Text" Value="PRESS ENTER TO START" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+			<Property Name="Font" Value="f30" /> 
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,115 @@
+<scene previous_export_time="1400870589.042707" exported_by="athos" export_time="1400870604.299579" formatVersion="1.0.1" >
+	<lights>
+		<light name="DirectionalLight1" type="directional" castShadows="true">
+			<direction  x="0" y="-1.2" z="-1"/>
+			<colourDiffuse r="0.5" g="0.5" b="0.2" a="1" />
+			<colourSpecular r="1" g="1" b="1" a="1" />
+		</light>
+		<light name="DirectionalLight2" type="directional" castShadows="false">
+			<direction  x="0" y="-1.2" z="1"/>
+			<colourDiffuse r="0.5" g="0.5" b="0.2" a="1" />
+			<colourSpecular r="1" g="1" b="1" a="1" />
+		</light>
+	</lights>
+
+  <nodes>
+	
+	<node name="MainCameraRotationNode" >
+		 <position y="3.760454" x="0.976554" z="-2.281972" />
+		  <rotation qy="0" qx="0.000000" qz="-0.000000" qw="1" />
+		  <scale y="1.000000" x="1.000000" z="1.000000" />  
+			<animation animFile="DeathMillAnimation.anim" speed="0.1" startFrame="6"/>
+		<node name="MainCamera" >
+			<position y="5.65" x="12.19" z="12.48" />
+			<rotation qw="0.917246" qz="0.039322" qy="0.391952" qx="-0.059056" />
+			<scale y="1.000000" x="1.000000" z="1.000000" />
+			<camera projectionType="perspective" name="MainCamera" fov="45">
+				<clipping  near="0.10000000149011612"  far="100.0" />
+			</camera>
+		</node>
+	</node>
+	
+	
+	<node name="STATICgroup2EndGameScene" >
+      <position z="-49.227638" x="57.016136" y="23.485907" />
+      <rotation qw="0.710191" qz="-0.000000" qx="0.000000" qy="-0.704010" />
+      <scale z="0.743943" x="0.743943" y="0.743943" />
+       <entity   name="STATICgroup2EndGameScene"    meshFile="STATICgroup2EndGameScene.mesh" 
+		static="true" />
+    </node>
+
+    <node name="STATICgroupEndGameScene" >
+      <position z="0.030930" x="-5.510586" y="3.174864" />
+      <rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+      <scale z="1.546973" x="1.546973" y="1.546973" />
+		<entity   name="STATICgroupEndGameScene"    meshFile="STATICgroupEndGameScene.mesh" 
+		static="true" />
+    </node>
+	
+	 <node name="Character" >
+        <position y="4.252" x="-0.940829" z="2.415533" />
+        <rotation qw="0.900645" qz="-0.000000" qy="0.434555" qx="0.000000" />
+        <scale y="1.000000" x="1.000000" z="1.000000" />
+        <entity meshFile="lowPolyCharacter.mesh" name="Character"  />
+    </node>
+	
+    <node name="skystone.003" >
+      <position z="-5.502199" y="4.118807" x="1.774992" />
+      <rotation qw="0.692155" qz="-0.000000" qy="-0.721748" qx="0.000000" />
+      <scale z="1.000000" y="1.000000" x="1.000000" />
+	  <animation animFile="DeathMillAnimation.anim" speed="0.5" startFrame="2"/>
+	  <entity   name="skystone.003"    meshFile="skystone.mesh"    />
+    </node>
+    <node name="skystone.001" >
+      <position z="-2.054983" y="4.104534" x="-1.744669" />
+      <rotation qw="0.964132" qz="-0.000000" qy="0.265425" qx="0.000000" />
+      <scale z="1.000000" y="1.000000" x="1.000000" />
+	  <animation animFile="DeathMillAnimation.anim" speed="0.5" startFrame="1"/>
+      <entity   name="skystone.001"    meshFile="skystone.mesh"    />
+    </node>
+    <node name="skystone.000" >
+      <position z="-0.206991" y="4.329637" x="1.907133" />
+      <rotation qw="1.000000" qz="-0.000000" qy="0.000000" qx="0.000000" />
+      <scale z="1.000000" y="1.000000" x="1.000000" />
+	  <animation animFile="DeathMillAnimation.anim" speed="0.6" startFrame="6"/>
+	  <entity   name="skystone.000"    meshFile="skystone.mesh"    />
+    </node>
+	<node name="skystone.002" >
+      <position z="-2.883086" y="4.343780" x="3.588155" />
+      <rotation qw="0.805964" qz="-0.000000" qy="-0.591965" qx="0.000000" />
+      <scale z="1.000000" y="1.000000" x="1.000000" />
+	  <animation animFile="DeathMillAnimation.anim" speed="0.6" />
+	  <entity   name="skystone.002"    meshFile="skystone.mesh"    />
+    </node>
+	
+    <node name="PortalLight" >
+      <position y="3.649954" x="0.976434" z="-2.300974" />
+      <rotation qy="-0.249883" qx="0.000000" qz="-0.000000" qw="0.968276" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />   
+	  <entity   name="PortalLight"    meshFile="PortalLight.mesh"  castShadows="false" />
+    </node>
+	
+	<node name ="CloudsParticles1">
+		  <position z="0.193851" x="2.911867" y="-9.549175" />
+      <rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+		<scale y="1.000000" x="1.000000" z="1.000000" />
+		<particleSystem name="particlesClouds1" file="CloudBits"/>
+	</node>
+	<node name="particlesClouds2" >
+      <position z="0.193851" x="2.911867" y="-9.549175" />
+      <rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+      <scale z="1.000000" x="1.000000" y="1.000000" />
+	  <particleSystem name="particlesClouds2" file="CloudBits2"/>
+	</node>
+</nodes>
+
+<environment >
+    <fog mode="linear" start="20" end="250" >
+		<colour r="0.8" g="0.8" b="0.8" a="0.9"/>
+	</fog>
+	<skyBox material="skybox" distance="60" drawFirst="true" active="true"/>
+	<colourAmbient r="1" g="1" b="1" a="1"/>
+  </environment>
+
+  
+</scene>

@@ -1,0 +1,35 @@
+// BlueMaterial genrated by blender2ogre 0.5.9
+
+material BlueMaterial 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass BlueMaterial
+        {
+            ambient 0.078981078863143921 0.07753284931182861 0.8 1.0
+            diffuse 0.0718486319757794 0.09402628085056364 0.800000011920929 1.0
+            specular 0.12239313125610352 0.0 0.5 1.0 1.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading flat
+            transparent_sorting on
+
+        }
+    }
+}

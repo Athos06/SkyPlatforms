@@ -1,0 +1,209 @@
+<scene exported_by="athos" export_time="1400361751.497754" formatVersion="1.0.1" previous_export_time="1400361189.548613" >
+		
+	<lights>
+		<light name="DirectionalLight1" type="directional" castShadows="true">
+			<direction  x="-0" y="-1.2" z="-1"/>
+			<colourDiffuse r="0.5" g="0.5" b="0.2" a="1" />
+			<colourSpecular r="1" g="1" b="1" a="1" />
+		</light>
+		<light name="DirectionalLight2" type="directional" castShadows="false">
+			<direction  x="0" y="-1.2" z="1"/>
+			<colourDiffuse r="0.5" g="0.5" b="0.2" a="1" />
+			<colourSpecular r="1" g="1" b="1" a="1" />
+		</light>
+	</lights>
+
+ <nodes >
+	<node name="SplashScreenCameraNode">
+		<position y="110.0" x="0.0" z="-50.0" />
+		<rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+		<scale y="1.000000" x="1.000000" z="1.000000" />
+		<camera name="SplashScreenCamera" projectionType="perspective" name="MainCamera" fov="60" attached="true">
+		<clipping  near="0.10"  far="90.0" />
+	</camera>
+	</node>
+	<node name="MainCameraNode">
+		<position y="0.0" x="100.0" z="100.0" />
+		<rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+		<scale y="1.000000" x="1.000000" z="1.000000" />
+		<animation animFile="MainMenuCameraAnimation.anim" speed="1.2"/>
+		<camera name="Camera#0" projectionType="perspective" name="MainCamera" fov="60" attached="true">
+		<clipping  near="0.10"  far="90.0" />
+	</camera>	
+	</node>
+  
+  
+	<!-- STATIC GEOMETRY -->
+	<node name="STATICGroup3MainMenu" >
+		<position z="-0.814007" x="-7.362713" y="5.345909" />
+		<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity  name="STATICGroup3MainMenu"  meshFile="STATICGroup3MainMenu.mesh"   />
+	</node>
+    <node name="STATICGroup5MainMenu" >
+		<position z="11.989626" x="-48.940807" y="34.557617" />
+		<rotation qw="0.948697" qz="-0.000000" qx="0.000000" qy="0.316188" />
+		<scale z="1.373272" x="1.373272" y="0.702341" />
+		<entity  name="STATICGroup5MainMenu"  meshFile="STATICGroup5MainMenu.mesh"   />
+	</node>
+    <node name="STATICGroup4MainMenu" >
+		<position z="-45.238472" x="-20.093979" y="34.317215" />
+		<rotation qw="0.865715" qz="-0.000000" qx="0.000000" qy="-0.500537" />
+		<scale z="1.373273" x="1.373273" y="1.373272" />
+		<entity  name="STATICGroup4MainMenu"  meshFile="STATICGroup4MainMenu.mesh"   />
+    </node>
+    <node name="STATICGroup2MainMenu" >
+		<position z="-23.097986" x="0.411289" y="15.701623" />
+		<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+		<scale z="1.372300" x="1.372300" y="1.372300" />
+		<entity  name="STATICGroup2MainMenu"  meshFile="STATICGroup2MainMenu.mesh"   />
+	</node>
+    <node name="STATICGroup1MainMenu" >
+		<position z="-0.814007" x="-7.362713" y="5.345909" />
+		<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity  name="STATICGroup1MainMenu"  meshFile="STATICGroup1MainMenu.mesh"   />
+    </node>
+	
+	
+ 
+    <node name="skystone.005" >
+      <position y="2.822193" x="0.160080" z="0.856141" />
+      <rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <animation animFile="DeathMillAnimation.anim" />
+      <entity  name="skystone.005"  meshFile="skystone.mesh"   />
+    </node>
+    <node name="skystone.004" >
+      <position y="11.871504" x="-18.311844" z="-1.654579" />
+      <rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <animation animFile="DeathMillAnimation.anim" />
+      <entity  name="skystone.004"  meshFile="skystone.mesh"   />
+    </node>
+    
+    <node name="skystone.003" >
+      <position y="36.547852" x="-20.498920" z="-45.759159" />
+      <rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <animation animFile="DeathMillAnimation.anim" />
+      <entity  name="skystone.003"  meshFile="skystone.mesh"   />
+    </node>
+    <node name="skystone.001" >
+      <position y="32.523033" x="15.523209" z="-59.644783" />
+      <rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <animation animFile="DeathMillAnimation.anim" />
+      <entity  name="skystone.001"  meshFile="skystone.mesh"   />
+    </node>
+    <node name="slasher.002" >
+      <position y="20.207891" x="-17.869768" z="-22.730537" />
+      <rotation qz="-0.000000" qy="-0.707107" qx="0.000000" qw="0.707107" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <entity  name="slasher.002"  meshFile="slasher.mesh"   />
+	  <animation animFile="SlasherAnimation.anim" startFrame="5"/>
+    </node>
+    <node name="slasher.000" >
+      <position y="20.207891" x="-10.155440" z="-22.730537" />
+      <rotation qz="-0.000000" qy="-0.707107" qx="0.000000" qw="0.707107" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <animation animFile="SlasherAnimation.anim"/>
+      <entity  name="slasher.000"  meshFile="slasher.mesh"   />
+    </node>
+    <node name="Platform.000" >
+      <position y="33.677055" x="-11.261250" z="-49.251274" />
+      <rotation qz="-0.000000" qy="0.211" qx="0.000000" qw="0.977" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <animation animFile="PlatformLvl2AnimationHorz.anim" />
+      <entity  name="Platform.000"  meshFile="Platform.mesh"   />
+    </node>
+    <node name="slasher.001" >
+      <position y="20.207891" x="-24.913284" z="-22.730537" />
+      <rotation qz="-0.000000" qy="-0.707107" qx="0.000000" qw="0.707107" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <animation animFile="SlasherAnimation.anim" startFrame="3"/>
+      <entity  name="slasher.001"  meshFile="slasher.mesh"  startFrame="1"/>
+    </node>
+    <node name="Platform.002" >
+      <position y="15.060159" x="-31.890757" z="-22.684500" />
+      <rotation qz="-0.000000" qy="-0.707107" qx="0.000000" qw="0.707107" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <animation animFile="PlatformAnimationHorz.anim" />
+      <entity  name="Platform.002"  meshFile="Platform.mesh"   />
+    </node>
+    <node name="Platform.001" >
+      <position y="9.190373" x="6.727742" z="-16.728033" />
+      <rotation qz="-0.000000" qy="0.310551" qx="0.000000" qw="0.950557" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+		<animation animFile="PlatformLvl2AnimationVert.anim" speed="0.7" />
+      <entity  name="Platform.001"  meshFile="Platform.mesh"   />
+    </node>
+    <node name="DeathMill.001" >
+      <position y="13.774794" x="-30.223541" z="-4.507531" />
+      <rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <animation animFile="DeathMillAnimation.anim" />
+      <entity  name="DeathMill.001"  meshFile="deathMill.mesh"   />
+    </node>
+    <node name="DeathMillCenter.000" >
+      <position y="13.868002" x="-30.227127" z="-4.510966" />
+      <rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <entity  name="DeathMillCenter.000"  meshFile="deathMillCenter.mesh"   />
+    </node>
+    <node name="skystone.002" >
+      <position y="6.090805" x="-0.218302" z="-22.201809" />
+      <rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <animation animFile="DeathMillAnimation.anim" />
+      <entity  name="skystone.002"  meshFile="skystone.mesh"   />
+    </node>
+
+    <node name="skystone" >
+      <position y="16.926861" x="0.530758" z="-22.918314" />
+      <rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      <animation animFile="DeathMillAnimation.anim" />
+      <entity  name="skystone"  meshFile="skystone.mesh"   />
+    </node>
+    <node name="PortalLight" >
+      <position y="5.752438" x="-8.146329" z="-2.140958" />
+      <rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+      <scale y="1.000000" x="1.000000" z="1.000000" />
+      
+      <entity  name="PortalLight"  meshFile="PortalLight.mesh" castShadows="false"  />
+    </node>
+   
+	<!-- PARTICLES -->
+	<node name ="splashScreenParticles">
+		<position y="95" x="0.0" z="-50.0" />
+		<rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+		<scale y="1.000000" x="1.000000" z="1.000000" />
+		<particleSystem name="particleSplashScreen" file="CloudBits"/>
+	</node>
+	<node name ="CloudsParticles1">
+		<position y="-9" x="-11.0" z="-11.0" />
+		<rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+		<scale y="1.000000" x="1.000000" z="1.000000" />
+		<particleSystem name="particlesClouds1" file="CloudBits"/>
+	</node>
+	<node name ="CloudsParticles2">
+		<position y="-9" x="-11.0" z="-11.0" />
+		<rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+		<scale y="1.000000" x="1.000000" z="1.000000" />
+		<particleSystem name="particlesClouds2" file="CloudBits2"/>
+	</node>
+ </nodes>
+  
+  
+  <environment >
+	<skyBox material="skybox" distance="100" drawFirst="true" active="true"/>
+	<colourAmbient r="0.9" g="0.9" b="0.9" a="0.9"/>
+	<fog mode="linear" start="20" end="300" >
+		<colour r="0.75" g="0.75" b="0.75" a="1"/>
+	</fog>
+  </environment>
+  
+  
+  
+</scene>

@@ -1,0 +1,20 @@
+<animation formatVersion="1.0.1" name="MasherAnimation" >
+	<keyframes length="4" interpolation="linear" >
+		<keyframe index="0" >
+			<position x="0.0" y="0.0" z="0.0" />
+			<rotation qx="0.000000" qy="0.000000" qz="-0.000000" qw="1.000000" />	  
+		</keyframe>
+		<keyframe index="1" >
+			<position x="0.0" y="-4.0" z="0.0" />
+			<rotation qx="0.000000" qy="0.000000" qz="-0.000000" qw="1.000000" />	  
+		</keyframe>
+		<keyframe index="2" >
+			<position x="0.0" y="-4.0" z="0.0" />
+			<rotation qx="0.000000" qy="0.000000" qz="-0.000000" qw="1.000000" />	  
+		</keyframe>
+		<keyframe index="4" >
+			<position x="0.0" y="0.0" z="0.0" />
+			<rotation qx="0.000000" qy="0.000000" qz="-0.000000" qw="1.000000" />	  
+		</keyframe>
+	</keyframes>
+</animation>

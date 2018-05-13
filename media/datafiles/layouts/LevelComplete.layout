@@ -1,0 +1,37 @@
+<GUILayout>
+    <Window Name="LevelCompleteRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+		<Window Name="LevelCompleteRoot/GroupBox" Type="TaharezLook/GroupBox">
+			<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.755729,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+			<AutoWindow NameSuffix="__auto_contentpane__">
+				<Window Name="StaticImage" Type="TaharezLook/StaticImage">
+				    <Property Name="UnifiedAreaRect" Value="{{0.00302418,0},{-0.245471,0},{0.867943,0},{0.0389473,0}}" />
+                    <Property Name="Image" Value="set:MenusImgSet image:LevelComplete" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+				</Window>
+				<Window Name="LevelCompleteRoot/ExitButton" Type="TaharezLook/Button">
+					<Property Name="UnifiedAreaRect" Value="{{0,0},{0.28,0},{0.65,0},{0.48,0}}" />
+                    <Property Name="Font" Value="f30" />
+                    <Property Name="Text" Value="EXIT" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+				</Window>
+				<Window Name="LevelCompleteRoot/ContinueButton" Type="TaharezLook/Button">
+					<Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{0.65,0},{0.3,0}}" />
+                    <Property Name="Font" Value="f30" />
+                    <Property Name="Text" Value="CONTINUE" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+				</Window>
+			</AutoWindow>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,41 @@
+// shot genrated by blender2ogre 0.5.9
+
+material shot 
+{
+    receive_shadows on 
+
+    technique
+    {
+		pass 
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+			lighting on
+			scene_blend alpha_blend
+			depth_write off
+            polygon_mode solid
+
+            texture_unit 
+            {
+				texture DIFF_CANNON2.png              
+                scale 1.0 1.0
+                alpha_op_ex source1 src_manual src_current 0.5
+            }
+        }
+		pass 
+        {
+            diffuse 0 1 1 1
+			
+			lighting off
+            polygon_mode wireframe
+             
+			texture_unit 
+            {
+				texture DIFF_CANNON2.png              
+            }
+        }
+    }
+}

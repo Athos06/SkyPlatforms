@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Name="CreditsRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1.2,0},{1,0}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+		<Window Name="CreditsRoot/backGround" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="Image" Value="set:imageset4 image:creditsBG" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+			<Window Name="CreditsRoot/credits0" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits3 image:credits11" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+			<Window Name="CreditsRoot/credits1" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits1 image:credits1" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+			<Window Name="CreditsRoot/credits2" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits1 image:credits2" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+			<Window Name="CreditsRoot/credits3" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits1 image:credits3" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+			<Window Name="CreditsRoot/credits4" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits1 image:credits4" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+			<Window Name="CreditsRoot/credits5" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits2 image:credits5" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+			<Window Name="CreditsRoot/credits6" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits2 image:credits6" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+			<Window Name="CreditsRoot/credits7" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits2 image:credits7" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+			<Window Name="CreditsRoot/credits8" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits2 image:credits8" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+			<Window Name="CreditsRoot/credits9" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits3 image:credits9" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+			<Window Name="CreditsRoot/credits10" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits3 image:credits10" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+			<Window Name="CreditsRoot/credits11" Type="TaharezLook/StaticImage">
+				<Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.6,0}}" />
+				<Property Name="Image" Value="set:Credits3 image:credits12" />
+				<Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+				<Property Name="Visible" Value="False" />
+				<Property Name="FrameEnabled" Value="False" />
+				<Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+				<Property Name="HorizontalAlignment" Value="Centre" />
+			</Window>
+		</Window>
+    </Window>
+</GUILayout>

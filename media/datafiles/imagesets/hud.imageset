@@ -1,0 +1,9 @@
+<Imageset AutoScaled="false" Imagefile="hud.png" Name="hud" NativeHorzRes="1024" NativeVertRes="768">
+    <Image Height="155" Name="lives" Width="298" XPos="1" YPos="0" />
+    <Image Height="157" Name="skystones" Width="330" XPos="678" YPos="0" />
+    <Image Height="304" Name="portalOpen" Width="242" XPos="743" YPos="158" />
+    <Image Height="60" Name="ShadowKing" Width="448" XPos="18" YPos="447" />
+    <Image Height="57" Name="Level3" Width="217" XPos="21" YPos="621" />
+    <Image Height="55" Name="Level1" Width="211" XPos="20" YPos="508" />
+    <Image Height="55" Name="Level2" Width="218" XPos="20" YPos="564" />
+</Imageset>

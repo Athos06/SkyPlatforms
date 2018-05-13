@@ -1,0 +1,55 @@
+<animation formatVersion="1.0.1" name="LevelBossCameraAnimation"  >
+	<keyframes length="95" interpolation="linear" speed="1.0">
+		<!--pos1-->
+		<keyframe index="0" >
+      <position z="11.609646" x="16.753365" y="4.346721" />
+      <rotation qx="0.019945" qy="0.000000" qz="-0.000000" qw="0.999801" />
+		</keyframe>
+		<!--pos1.1-->
+			<keyframe index="10" >
+			 <position z="-18.739849" x="16.753365" y="15.142851" />
+      <rotation qw="0.968178" qz="-0.000000" qx="-0.250264" qy="0.000000" />
+		</keyframe>
+		<!--pos2-->
+		<keyframe index="20" >
+			<position z="-11.217870" x="-42.401955" y="27.063437" />
+			<rotation qw="0.807527" qz="-0.217852" qx="-0.248713" qy="-0.488450" />
+	  </keyframe>
+	  <!--pos3-->
+		<keyframe index="30" >
+			<position z="62.029285" x="-26.791904" y="27.063437" />
+			<rotation qw="0.930503" qz="-0.083084" qx="-0.250481" qy="-0.254009" />
+		</keyframe>
+		<!--pos4-->
+		<keyframe index="40" >
+			<position z="34.581688" x="73.272972" y="27.063438" />
+			<rotation qw="0.957609" qz="0.098552" qx="-0.118809" qy="0.243221" />
+		</keyframe>
+		<!--pos5-->
+		<keyframe index="50" >
+			<position z="-68.333931" x="73.403046" y="46.325764" />
+			<rotation qw="0.620909" qz="0.220578" qx="-0.202712" qy="0.724379" />
+		</keyframe>
+		<!--pos6-->
+		<keyframe index="60" >
+			<position z="-108.355087" x="19.624641" y="53.066307" />
+			<rotation qw="0.025691" qz="-0.336394" qx="0.014258" qy="-0.941263" /> 
+		</keyframe>
+		<!--pos7-->
+		<keyframe index="75" >
+			 <position z="-68.014740" x="-43.767334" y="53.066315" />
+			<rotation qw="0.443300" qz="-0.263054" qx="-0.222374" qy="-0.827549" />
+		</keyframe>
+		<!--pos8-->
+		<keyframe index="85" >
+			<position z="-26.444935" x="-13.689829" y="32.545296" />
+			<rotation qw="0.772057" qz="-0.163027" qx="-0.237736" qy="-0.566420" />
+     
+		</keyframe>
+		<!--pos1-->
+		<keyframe index="95" >
+      <position z="11.609646" x="16.753365" y="4.346721" />
+      <rotation qx="0.019945" qy="0.000000" qz="-0.000000" qw="0.999801" />
+		</keyframe>
+	</keyframes>
+</animation>

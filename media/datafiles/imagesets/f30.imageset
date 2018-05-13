@@ -1,0 +1,41 @@
+<Imageset AutoScaled="false" Imagefile="Font30.png" Name="f30" NativeHorzRes="1024" NativeVertRes="768" >
+	<Image Height="0" Name=" " Width="0" XPos="0" YPos="0" />
+	<Image Height="30" Name="A" Width="30" XPos="4" YPos="10" />
+    <Image Height="30" Name="C" Width="24" XPos="57" YPos="10" />
+    <Image Height="30" Name="B" Width="23" XPos="34" YPos="10" />
+    <Image Height="30" Name="D" Width="26" XPos="81" YPos="10" />
+    <Image Height="30" Name="E" Width="19" XPos="109" YPos="10" />
+    <Image Height="30" Name="F" Width="19" XPos="129" YPos="10" />
+    <Image Height="30" Name="G" Width="30" XPos="147" YPos="10" />
+    <Image Height="30" Name="H" Width="27" XPos="178" YPos="10" />
+    <Image Height="30" Name="K" Width="28" XPos="5" YPos="54" />
+    <Image Height="30" Name="M" Width="34" XPos="52" YPos="54" />
+    <Image Height="30" Name="I" Width="11" XPos="207" YPos="10" />
+    <Image Height="30" Name="J" Width="19" XPos="218" YPos="10" />
+    <Image Height="30" Name="L" Width="19" XPos="33" YPos="54" />
+    <Image Height="30" Name="N" Width="29" XPos="88" YPos="54" />
+    <Image Height="30" Name="Q" Width="32" XPos="173" YPos="54" />
+    <Image Height="30" Name="O" Width="32" XPos="118" YPos="54" />
+    <Image Height="30" Name="P" Width="23" XPos="150" YPos="54" />
+    <Image Height="30" Name="R" Width="25" XPos="206" YPos="54" />
+    <Image Height="30" Name="S" Width="23" XPos="5" YPos="97" />
+    <Image Height="30" Name="T" Width="22" XPos="30" YPos="97" />
+    <Image Height="30" Name="U" Width="26" XPos="55" YPos="97" />
+    <Image Height="30" Name="V" Width="30" XPos="85" YPos="97" />
+    <Image Height="30" Name="W" Width="42" XPos="116" YPos="97" />
+    <Image Height="30" Name="X" Width="31" XPos="158" YPos="97" />
+    <Image Height="30" Name="Y" Width="28" XPos="190" YPos="97" />
+    <Image Height="30" Name="Z" Width="26" XPos="220" YPos="97" />
+    <Image Height="30" Name="0" Width="21" XPos="6" YPos="157" />
+    <Image Height="30" Name="1" Width="14" XPos="33" YPos="157" />
+    <Image Height="30" Name="2" Width="21" XPos="53" YPos="157" />
+    <Image Height="30" Name="4" Width="21" XPos="100" YPos="157" />
+    <Image Height="30" Name="3" Width="20" XPos="78" YPos="157" />
+    <Image Height="30" Name="5" Width="20" XPos="125" YPos="157" />
+    <Image Height="30" Name="6" Width="21" XPos="147" YPos="157" />
+    <Image Height="30" Name="7" Width="20" XPos="173" YPos="157" />
+    <Image Height="30" Name="8" Width="21" XPos="195" YPos="157" />
+    <Image Height="30" Name="9" Width="21" XPos="218" YPos="157" />
+	<Image Height="30" Name="." Width="12" XPos="66" YPos="217" />
+    <Image Height="30" Name="," Width="12" XPos="78" YPos="220" />
+</Imageset>

@@ -1,0 +1,44 @@
+
+
+##########################################################
+Sky Platforms
+
+Autor: Jorge Rosique
+##########################################################
+
+Sky platforms es un juego de plataformas 3d de estilo clásico.
+En Sky Platforms el  jugador se encuentra en un mundo formado por una serie de islas que 
+se encuentran suspendidas sobre las nubes y en el cual deben encontrarse y recoger una serie
+de “skystones”, unas gemas especiales que son utilizadas para activar los portales que permiten
+al  jugador poder abandonar la zona. Estos mundos en las alturas están plagados de trampas y obstáculos,
+así como el peligro siempre constante de caer al vacío, que dificultarán la misión del jugador de activar 
+el portal para poder avanzar a la siguiente zona.
+
+###########################################################
+-Dependencias:
+
+se requieren de las siguientes librerias para poder ejecutar la demo:
+
+Bullet 2.81
+Ogre 1.8
+CEGUI 0.8
+SDL 1.2
+
+-Instalacion:
+
+En linux se puede compilar desde la carpeta raiz de la demo utilizando:
+
+	$ make mode=release
+	$ ./SkyPlatforms 
+	
+############################################################
+
+el repositorio del proyecto se puede encontrar en la siguiente direccion:
+
+https://bitbucket.org/JorgeRC/proyectp
+
+comando para clonar el repositorio (se requiere tener instalado git):
+
+git clone https://JorgeRC@bitbucket.org/JorgeRC/proyectp.git
+
+

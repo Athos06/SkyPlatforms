@@ -1,0 +1,65 @@
+<GUILayout>
+    <Window Name="LevelIntroRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="LevelIntroRoot/instructionsLvl" Type="TaharezLook/StaticText">
+            <Property Name="UnifiedAreaRect" Value="{{0.00146484,0},{0.280599,0},{0.721465,0},{0.610599,0}}" />
+            <Property Name="Font" Value="f30" />
+            <Property Name="Text" Value="COLLECT ALL  THE 4 SKYSTONES TO ACTIVATE THE PORTAL AND PASS THE LEVEL" />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="LevelIntroRoot/instructionsBoss" Type="TaharezLook/StaticText">
+            <Property Name="UnifiedAreaRect" Value="{{0.00146484,0},{0.280599,0},{0.721465,0},{0.610599,0}}" />
+            <Property Name="Font" Value="f30" />
+            <Property Name="Text" Value="THE SHADOW KING IS ON A TRAP, PUSH THE 3 SWITCHES TO ACTIVATE IT AND DESTROY HIM AND CLEAR THE PATH TO THE PORTAL" />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="LevelIntroRoot/Level1Tittle" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{-0.00390625,0},{-0.430339,0},{0.242188,0},{-0.347005,0}}" />
+            <Property Name="Image" Value="set:hud image:Level1" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="LevelIntroRoot/Level2Tittle" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{-0.00390625,0},{-0.430339,0},{0.242188,0},{-0.347005,0}}" />
+            <Property Name="Image" Value="set:hud image:Level2" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="LevelIntroRoot/Level3Tittle" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{-0.00390625,0},{-0.430339,0},{0.242188,0},{-0.347005,0}}" />
+            <Property Name="Image" Value="set:hud image:Level3" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="LevelIntroRoot/LevelBossTittle" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0.000488281,0},{-0.425782,0},{0.317872,0},{-0.330729,0}}" />
+            <Property Name="Image" Value="set:hud image:ShadowKing" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

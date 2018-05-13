@@ -1,0 +1,35 @@
+// wood genrated by blender2ogre 0.5.9
+
+material wood 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass wood
+        {
+            ambient 0.20190024375915527 0.10405093431472778 0.018352340906858444 1.0
+            diffuse 0.16152019741416268 0.08324074869216602 0.014681872944263707 1.0
+            specular 0.15540611743927002 0.13312482833862305 0.0718778446316719 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading flat
+            transparent_sorting on
+
+        }
+    }
+}

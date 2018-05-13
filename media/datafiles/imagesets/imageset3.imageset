@@ -1,0 +1,3 @@
+<Imageset AutoScaled="false" Imagefile="imageset3.png" Name="imageset3" NativeHorzRes="1024" NativeVertRes="768">
+    <Image Height="768" Name="LoadingBG" Width="1024" XPos="0" YPos="0" />
+</Imageset>

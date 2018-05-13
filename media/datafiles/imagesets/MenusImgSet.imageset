@@ -1,0 +1,13 @@
+<Imageset AutoScaled="false" Imagefile="MenusImageset.png" Name="MenusImgSet" NativeHorzRes="1024" NativeVertRes="720">
+    <Image Height="97" Name="MenuBgTop" Width="1024" XPos="0" YPos="0" />
+    <Image Height="162" Name="MainMenu" Width="388" XPos="16" YPos="818" />
+    <Image Height="184" Name="LevelComplete" Width="496" XPos="8" YPos="198" />
+    <Image Height="162" Name="Audio" Width="388" XPos="437" YPos="413" />
+    <Image Height="162" Name="controls" Width="388" XPos="435" YPos="814" />
+    <Image Height="162" Name="Options" Width="388" XPos="13" YPos="619" />
+    <Image Height="162" Name="Pause" Width="388" XPos="435" YPos="619" />
+    <Image Height="88" Name="GameOver" Width="396" XPos="39" YPos="109" />
+    <Image Height="84" Name="Ouch" Width="329" XPos="654" YPos="180" />
+    <Image Height="162" Name="selectLevel" Width="388" XPos="13" YPos="412" />
+    <Image Height="58" Name="gameFinished" Width="556" XPos="449" YPos="110" />
+</Imageset>

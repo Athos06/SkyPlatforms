@@ -1,0 +1,640 @@
+<scene formatVersion="1.0.1" exported_by="athos" export_time="1400275367.20593" previous_export_time="1400266188.36883" >
+  	
+	<camera name="Camera#0" projectionType="perspective"  fov="60" attached="false">
+		<clipping  near="1"  far="90.0" />
+	</camera>
+	
+	
+	
+	<lights>
+		<light name="DirectionalLight1" type="directional" castShadows="true">
+			<direction  x="-1" y="-1.2" z="-1"/>
+			<colourDiffuse r="0.5" g="0.5" b="0.2" a="1" />
+			<colourSpecular r="1" g="1" b="1" a="1" />
+		</light>
+		<light name="DirectionalLight2" type="directional" castShadows="false">
+			<direction  x="1" y="-1.2" z="1"/>
+			<colourDiffuse r="0.5" g="0.5" b="0.2" a="1" />
+			<colourSpecular r="1" g="1" b="1" a="1" />
+		</light>
+	</lights>
+  	
+<nodes >
+	<!--CAMERA-->
+	<node name="cameraIntro">
+		<position y="0.0" x="0.0" z="0.0" />
+		<rotation qz="0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+		<scale y="1.000000" x="1.000000" z="1.000000" />
+		<animation animFile="Level2CameraAnimation.anim"/>
+		<camera name="LevelIntroCamera" projectionType="perspective" name="MainCamera" fov="60" attached="true">
+			<clipping  near="0.10"  far="90.0" />
+		</camera>
+	</node>
+
+	<!--GAME OBJECTS-->
+	<node name="skystone.003" >
+		<position z="-61.562870" x="36.113701" y="30.512848" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity  name="skystone.003"      meshFile="skystone.mesh"  />
+		<node name="ColliderSkystone.003" >
+			<position z="0.000000" y="0" x="0" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />	 
+			<scale y="0.588794" x="0.588794" z="0.588794" />
+			<userDataReference>
+				<collectible type="skystone" />
+			</userDataReference>
+		</node>
+	</node>
+	<node name="skystone.001" >
+		<position z="-52.750675" x="55.379566" y="24.758900" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity  name="skystone.001"      meshFile="skystone.mesh"  />
+		<node name="ColliderSkystone.001" >
+			<position z="0.000000" y="0" x="0" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />	 
+			<scale y="0.588794" x="0.588794" z="0.588794" />
+			<userDataReference>
+				<collectible type="skystone" />
+			</userDataReference>
+		</node>
+	</node>
+	<node name="skystone.000" >
+		<position z="-37.326420" x="-9.335386" y="28.623079" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity  name="skystone.000"      meshFile="skystone.mesh"  />
+		<node name="ColliderSkystone.000" >
+			<position z="0.000000" y="0" x="0" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />	 
+			<scale y="0.588794" x="0.588794" z="0.588794" />
+			<userDataReference>
+				<collectible type="skystone" />
+			</userDataReference>
+		</node>
+	</node>
+	<node name="skystone.002" >
+		<position z="-23.879230" x="16.566177" y="13.220511" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity  name="skystone.002"      meshFile="skystone.mesh"  />
+		<node name="ColliderSkystone.002" >
+			<position z="0.000000" y="0" x="0" />
+			<rotation qy="0.000000" qx="0.000000" qz="0.000000" qw="1.000000" />	 
+			<scale y="0.588794" x="0.588794" z="0.588794" />
+			<userDataReference>
+				<collectible type="skystone" />
+			</userDataReference>
+		</node>
+	</node>
+	
+		<node name="deathTrigger" >
+		  <position z="-0.000000" y="-9.552428" x="0.000000" />
+		  <rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+		  <scale z="133.117325" y="5.553685" x="197.148727" />
+		  <userDataReference>
+				<deathTrigger type="" />
+			</userDataReference>
+		</node>
+		
+		<node name="portal" >
+			<position z="2.314912" x="-5.889126" y="2.964124" />
+			<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+			<scale z="1.000000" x="1.000000" y="1.000000" />
+			<node name="portalTrigger" >
+				<position y="1.202256" x="0.000000" z="-0.000000" />
+				<rotation qw="1.000000" qz="-0.000000" qy="0.000000" qx="0.000000" />
+				<scale y="2.515772" x="1.542498" z="1.567266" />
+				<userDataReference>
+					<portal type="" />
+				</userDataReference>
+			</node>
+			<node name="COLLportal" >
+				<position x="0.0" y="0" z="0.000000" />
+				<rotation qx="0.000000" qy="0.000000" qz="-0.000000" qw="1.000000" />
+				<scale x="1.005000" y="0.177906" z="1.028877" />  
+				<physics physics_type="static" collider_type="primitiveBox" 
+				collision_mesh="" isGhost="false" />
+			</node>
+		</node>
+	   
+		<node name="DeathMillCenter" >
+			<position z="-26.791761" x="31.353327" y="12.384582" />
+			<rotation qw="-0.000000" qx="0.000000" qy="1.000000" qz="-0.000000" />
+			<scale z="1.000000" x="1.000000" y="1.000000" />
+			<entity   name="DeathMillCenter"    meshFile="deathMillCenter.mesh"    />
+			<physics physics_type="static" collider_type="mesh" collision_mesh="ColliderDeathMillCenter.mesh" 
+			isGhost="false" isConvex="true"/>
+		</node>
+		<node name="DeathMill" >
+			<position z="-26.795197" x="31.349737" y="12.291373" />
+			<rotation qw="-0.000000" qx="0.000000" qy="1.000000" qz="-0.000000" />
+			<scale z="1.000000" x="1.000000" y="1.000000" />
+			<entity   name="deathMill"    meshFile="deathMill.mesh"   />
+			<animation animFile="DeathMillAnimation.anim" invert="true"/>
+			<userDataReference>
+				<trap type="deathMill" />
+			</userDataReference>
+			<node name="ColliderDeathMill.002" >
+				<position z="2.610275" y="-0.019272" x="-1.479696" />
+				<rotation qy="-0.258820" qx="0.000000" qz="-0.000000" qw="0.965925" />
+				<scale z="2.306093" y="0.138573" x="0.539082" />
+				<node name="TrailColliderDeathMill.002" >
+					<position x="0.000002" y="0.000000" z="0.932250" />
+					<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+					<scale x="1.000000" y="1.000000" z="1.000000" />
+				</node>
+			</node>
+			<node name="ColliderDeathMill.004" >
+				<position z="-0.007650" y="-0.019272" x="3.000496" />
+				<rotation qy="0.707106" qx="0.000000" qz="-0.000000" qw="0.707107" />
+				<scale z="2.306093" y="0.138573" x="0.539082" />
+				<node name="TrailColliderDeathMill.004" >
+					<position x="0.000002" y="0.000000" z="0.932250" />
+					<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+					<scale x="1.000000" y="1.000000" z="1.000000" />
+				</node>
+			</node>
+			<node name="ColliderDeathMill.005" >
+				<position z="-2.590830" y="-0.019272" x="-1.513486" />
+				<rotation qy="-0.964816" qx="0.000000" qz="-0.000000" qw="0.262927" />
+				<scale z="2.306092" y="0.138573" x="0.539081" />
+				<node name="TrailColliderDeathMill.005" >
+					<position x="0.000002" y="0.000000" z="0.932250" />
+					<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+					<scale x="1.000000" y="1.000000" z="1.000000" />
+				</node>
+			</node>
+		</node>
+		<node name="DeathMillCenter.002" >
+			<position z="-26.791761" x="41.490673" y="12.384582" />
+			<rotation qw="-0.000000" qx="0.000000" qy="1.000000" qz="-0.000000" />
+			<scale z="1.000000" x="1.000000" y="1.000000" />
+			<entity   name="DeathMillCenter.002"    meshFile="deathMillCenter.mesh"    />
+			<physics physics_type="static" collider_type="mesh" collision_mesh="ColliderDeathMillCenter.mesh" 
+			isGhost="false" isConvex="true"/>
+		</node>
+		<node name="DeathMill.002" >
+			<position z="-26.795197" x="41.487080" y="12.291373" />
+			<rotation qw="-0.000000" qx="0.000000" qy="1.000000" qz="-0.000000" />
+			<scale z="1.000000" x="1.000000" y="1.000000" />
+		  <entity   name="DeathMill.002"    meshFile="deathMill.mesh"   />
+		  <animation animFile="DeathMillAnimation.anim" invert="true"/>
+		  <userDataReference>
+				<trap type="deathMill" />
+			</userDataReference>
+		  <node name="ColliderDeathMill.006" >
+			<position z="-2.590830" y="-0.019272" x="-1.513486" />
+			<rotation qy="-0.964816" qx="0.000000" qz="-0.000000" qw="0.262927" />
+			<scale z="2.306092" y="0.138573" x="0.539081" />
+			<node name="TrailColliderDeathMill.006" >
+				<position x="0.000002" y="0.000000" z="0.932250" />
+				<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+				<scale x="1.000000" y="1.000000" z="1.000000" />
+			</node>
+		  </node>
+		  <node name="ColliderDeathMill.007" >
+			<position z="-0.007650" y="-0.019272" x="3.000496" />
+			<rotation qy="0.707106" qx="0.000000" qz="-0.000000" qw="0.707107" />
+			<scale z="2.306093" y="0.138573" x="0.539082" />  
+			<node name="TrailColliderDeathMill.007" >
+				<position x="0.000002" y="0.000000" z="0.932250" />
+				<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+				<scale x="1.000000" y="1.000000" z="1.000000" />
+			</node>
+		  </node>
+		  <node name="ColliderDeathMill.008" >
+			<position z="2.610275" y="-0.019272" x="-1.479695" />
+			<rotation qy="-0.258820" qx="0.000000" qz="-0.000000" qw="0.965925" />
+			<scale z="2.306093" y="0.138573" x="0.539082" />
+			<node name="TrailColliderDeathMill.008" >
+				<position x="0.000002" y="0.000000" z="0.932250" />
+				<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+				<scale x="1.000000" y="1.000000" z="1.000000" />
+			</node>
+		  </node>
+		</node>
+
+		 <node name="slasher" >
+		  <position z="-11.928314" x="14.157850" y="19.748962" />
+		  <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		  <scale z="1.000000" x="1.000000" y="1.000000" />
+		  <entity   name="slasher"    meshFile="slasher.mesh"   castShadows="true" />
+		  <animation animFile="SlasherAnimation.anim"  />
+			<userDataReference>
+				<trap type="slasher" />
+			</userDataReference>
+			<node name="slasherTrail" >
+				<position x="0.000000" y="-4.020910" z="-0.000000" />
+				<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+				<scale x="1.000000" y="1.000000" z="1.000000" />
+			</node>
+		</node>
+		<node name="slasher.002" >
+			<position z="-64.109795" x="50.231976" y="33.341152" />
+			<rotation qw="0.707107" qx="0.000000" qy="-0.707107" qz="-0.000000" />
+			<scale z="1.000000" x="1.000000" y="1.000000" />
+			<entity   name="slasher.002"    meshFile="slasher.mesh"  castShadows="true"  />
+			<animation animFile="SlasherAnimation.anim"  />
+			<userDataReference>
+				<trap type="slasher" />
+			</userDataReference>
+			<node name="slasher.002Trail" >
+				<position x="0.000000" y="-4.020910" z="-0.000000" />
+				<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+				<scale x="1.000000" y="1.000000" z="1.000000" />
+			</node>
+		</node>
+		<node name="slasher.003" >
+			<position z="-64.109795" x="46.212887" y="33.341152" />
+			<rotation qw="0.707107" qx="0.000000" qy="-0.707107" qz="-0.000000" />
+			<scale z="1.000000" x="1.000000" y="1.000000" />
+			<entity   name="slasher.003"    meshFile="slasher.mesh"  castShadows="true"  />
+			<animation animFile="SlasherAnimation.anim" startFrame="3" />
+			<userDataReference>
+				<trap type="slasher" />
+			</userDataReference>
+			<node name="slasher.003Trail" >
+				<position x="0.000000" y="-4.020910" z="-0.000000" />
+				<rotation qw="1.000000" qz="-0.000000" qx="0.000000" qy="0.000000" />
+				<scale x="1.000000" y="1.000000" z="1.000000" />
+			</node>
+		</node>
+		
+	<node name="Spikes.002" >
+		<position z="-46.239971" x="55.218853" y="22.466164" />
+		<rotation qw="0.709270" qx="0.000000" qy="-0.704937" qz="-0.000000" />
+		<scale z="3.919189" x="4.421378" y="1.079453" />
+		<userDataReference>
+			<trap type="spikes" />
+		</userDataReference>
+    </node>
+<!--     <node name="Spikes.001" >
+		<position z="-64.323441" x="47.932240" y="26.127567" />
+		<rotation qw="-0.003064" qx="0.000000" qy="0.999995" qz="-0.000000" />
+		<scale z="2.414535" x="3.950237" y="1.079453" />
+		<userDataReference>
+			<trap type="spikes" />
+		</userDataReference>
+	</node> -->
+	<!--STATIC GEOMETRY-->
+	<node name="STATICGroup2Level2" >
+		<position z="-52.302086" x="62.857574" y="21.377523" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity   name="STATICGroup2Level2"  meshFile="STATICGroup2Level2.mesh"  
+		static="true" />
+	</node>
+	<node name="STATICGroup1Level2" >
+		<position z="-21.770983" x="11.132305" y="13.720620" />
+		<rotation qw="0.191348" qx="0.000000" qy="-0.981522" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity   name="STATICGroup1Level2"  meshFile="STATICGroup1Level2.mesh"    
+		static="true" />
+	</node>
+	<node name="STATICGroup3Level2" >
+		<position z="-62.878681" x="50.528526" y="25.801342" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />   
+		<entity   name="STATICGroup3Level2"  meshFile="STATICGroup3Level2.mesh"   
+		static="true" />
+	</node>	
+	<node name="STATICGrassGroup2Level2" >
+		<position z="-27.657682" x="77.363464" y="9.400939" />
+		<rotation qw="0.988353" qx="-0.000000" qy="-0.152182" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity   name="STATICGrassGroup2Level2"  meshFile="STATICGrassGroup2Level2.mesh"   
+		static="true" castShadows="false" />
+	</node>
+	<node name="STATICGrassGroup1Level2" >
+		<position z="10.987656" x="15.810371" y="-1.620219" />
+		<rotation qw="0.988353" qx="-0.000000" qy="-0.152182" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity   name="STATICGrassGroup1Level2"  meshFile="STATICGrassGroup1Level2.mesh"   
+		static="true" castShadows="false" />
+	</node>
+	<!--STATIC COLLIDERS-->   
+	<node name="COLLSTATICGroup1Level2Floor" >
+		<position z="0.701332" x="-5.661901" y="0.066480" />
+		<rotation qw="0.714029" qx="0.000000" qy="0.700116" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<physics physics_type="static" collider_type="mesh" 
+		collision_mesh="COLLSTATICGroup1Level2Floor.mesh" 
+			isGhost="false" isConvex="false"/>
+    </node>
+	<node name="COLLSTATICGroup2Level2" >
+		<position z="-29.618700" x="52.583733" y="13.088899" />
+		<rotation qw="1.000000" qx="0.000000" qy="-0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<physics physics_type="static" collider_type="mesh" 
+		collision_mesh="COLLSTATICGroup2Level2.mesh" 
+		isGhost="false" isConvex="false"/>
+    </node>
+    <node name="COLLbridge1.001" >
+		<position z="-17.192413" x="14.098665" y="11.688127" />
+		<rotation qw="0.707107" qx="-0.000000" qy="-0.707107" qz="0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<physics physics_type="static" collider_type="mesh" 
+		collision_mesh="COLLbridge1.mesh" isGhost="false" isConvex="false"/>
+    </node>
+    <node name="COLLbridge1" >
+		<position z="-6.758056" x="14.098665" y="11.688127" />
+		<rotation qw="0.707107" qx="-0.000000" qy="0.707107" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<physics physics_type="static" collider_type="mesh" 
+		collision_mesh="COLLbridge1.mesh" isGhost="false" isConvex="false"/>
+    </node>
+		<node name="COLLstaticPlatform1.004" >
+		<position z="-23.618832" x="16.651552" y="11.056561" />
+		<rotation qw="0.708761" qx="0.000000" qy="0.705448" qz="-0.000000" />
+		<scale z="4.060971" x="2.361650" y="0.449720" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+    </node>
+    <node name="COLLstaticPlatform1.003" >
+		<position z="-0.263741" x="11.690022" y="11.056561" />
+		<rotation qw="0.708761" qx="0.000000" qy="0.705448" qz="-0.000000" />
+		<scale z="4.060971" x="2.361650" y="0.449720" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+    </node>
+<!-- 	<node name="COLLstaticPlatform1.002" >
+		<position z="-64.259216" x="47.925663" y="24.767622" />
+		<rotation qw="0.708761" qx="0.000000" qy="0.705448" qz="-0.000000" />
+		<scale z="4.060971" x="2.361650" y="0.449720" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+	</node> -->
+	<node name="COLLstaticPlatform1.000" >
+		<position z="-30.864895" x="-19.146545" y="18.669727" />
+		<rotation qw="0.982902" qx="0.000000" qy="0.184128" qz="-0.000000" />
+		<scale z="4.060971" x="2.361650" y="0.449720" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+	</node>
+	<node name="COLLPlatformDeathMill" >
+		<position z="-26.636009" x="37.194859" y="11.182708" />
+		<rotation qw="-0.000000" qx="0.000000" qy="1.000000" qz="-0.000000" />
+		<scale z="1.000000" x="7.846327" y="0.486619" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+    </node>
+	<node name="COLLPasarela" >
+		<position z="-64.214622" x="47.925968" y="27.718378" />
+		<rotation qw="0.706562" qx="0.000000" qy="0.707652" qz="-0.000000" />
+		<scale z="4.501700" x="0.431797" y="0.209201" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+    </node>
+	<node name="COLLpasarela.001" >
+		<position z="-46.130150" x="55.350319" y="23.819010" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000771" qz="-0.000000" />
+		<scale z="4.501700" x="0.431797" y="0.209201" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+    </node>
+	<node name="COLLstaticPlatform2.001" >
+		<position z="-64.244942" x="41.192135" y="26.890211" />
+		<rotation qw="0.706562" qx="0.000000" qy="0.707652" qz="-0.000000" />
+		<scale z="2.447296" x="2.395479" y="0.473092" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+	</node>
+    <node name="COLLstaticPlatform2.002" >
+		<position z="-64.266502" x="54.622665" y="26.890211" />
+		<rotation qw="0.706562" qx="0.000000" qy="0.707652" qz="-0.000000" />
+		<scale z="2.447296" x="2.395479" y="0.473092" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+	</node>
+	<node name="COLLstaticPlatform2.003" >
+		<position z="-61.584492" x="35.658932" y="28.918221" />
+		<rotation qw="0.633231" qx="0.000941" qy="0.773962" qz="-0.000831" />
+		<scale z="2.397484" x="2.447586" y="0.470042" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+    </node>
+    <node name="COLLstaticPlatform2.005" >
+		<position z="-57.603893" x="31.602232" y="31.577307" />
+		<rotation qw="0.571654" qx="0.000874" qy="0.820494" qz="-0.000901" />
+		<scale z="2.397484" x="2.447585" y="0.470042" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+    </node>
+	<node name="COLLstaticPlatform2.006" >
+		<position z="-52.475170" x="28.524055" y="33.912834" />
+		<rotation qw="0.563393" qx="0.000865" qy="0.826188" qz="-0.000910" />
+		<scale z="2.397484" x="2.447586" y="0.470042" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+    </node>
+	<node name="COLLstaticPlatform2.007" >
+		<position z="-58.597244" x="55.042255" y="25.297115" />
+		<rotation qw="0.707051" qx="0.001019" qy="0.707162" qz="-0.000734" />
+		<scale z="2.397484" x="2.447586" y="0.470042" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+	</node>
+	<node name="COLLslope.001" >
+		<position z="-11.869244" x="-11.759720" y="2.532671" />
+		<rotation qw="0.824141" qx="0.000000" qy="-0.566385" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<physics physics_type="static" collider_type="mesh" 
+		collision_mesh="COLLslope.mesh" isGhost="false" isConvex="true"/>
+    </node>	
+    <node name="COLLslope.003" >
+		<position z="-36.492741" x="-11.673091" y="19.086746" />
+		<rotation qw="0.191348" qx="0.000000" qy="-0.981522" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<physics physics_type="static" collider_type="mesh" 
+		collision_mesh="COLLslope.mesh" isGhost="false" isConvex="true"/>
+    </node>
+    <node name="COLLslope" >
+		<position z="-22.425650" x="-15.812577" y="10.342670" />
+		<rotation qw="0.824141" qx="0.000000" qy="-0.566385" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<physics physics_type="static" collider_type="mesh" 
+		collision_mesh="COLLslope.mesh" isGhost="false" isConvex="true"/>
+    </node>
+    <node name="COLLslope.002" >
+		<position z="-40.811157" x="-1.018371" y="26.980743" />
+		<rotation qw="0.191348" qx="0.000000" qy="-0.981522" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<physics physics_type="static" collider_type="mesh" 
+		collision_mesh="COLLslope.mesh" isGhost="false" isConvex="true"/>
+	</node>
+	 <node name="COLLwoodStructure" >
+		<position z="-67.069061" x="39.394516" y="30.935791" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="0.439603" x="0.439603" y="4.513035" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+    </node>
+    <node name="COLLwoodStructure2" >
+		<position z="-67.045883" x="56.400402" y="30.935791" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="0.439603" x="0.439603" y="4.513035" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+    </node>
+	<!--COLLIDERS DE ARBOLES-->
+	<node name="COLLtree1.003" >
+		<position z="-52.768738" x="62.419704" y="24.412502" />
+		<rotation qw="0.675311" qx="0.000000" qy="0.737533" qz="-0.000000" />
+		<scale z="1.670638" x="1.670638" y="7.755000" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+	</node>
+	<node name="COLLtree1.002" >
+		<position z="-46.530117" x="62.268772" y="24.412502" />
+		<rotation qw="0.675311" qx="0.000000" qy="0.737533" qz="-0.000000" />
+		<scale z="1.670638" x="1.670638" y="7.755000" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+	</node>
+	<node name="COLLtree1.001" >
+		<position z="-46.047981" x="48.850307" y="24.412502" />
+		<rotation qw="0.675311" qx="0.000000" qy="0.737533" qz="-0.000000" />
+		<scale z="1.670638" x="1.670638" y="7.755000" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+	</node>
+	<node name="COLLTree2.000" >
+		<position z="-3.620487" x="-3.053222" y="5.588696" />
+		<rotation qw="0.992317" qx="0.000000" qy="-0.123721" qz="-0.000000" />
+		<scale z="0.660141" x="0.660141" y="3.421162" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+	</node>
+	<node name="COLLtree1.000" >
+		<position z="-52.672882" x="48.138359" y="24.412502" />
+		<rotation qw="0.681220" qx="0.000000" qy="0.732079" qz="-0.000000" />
+		<scale z="1.670638" x="1.670638" y="7.755000" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+	</node>
+	<node name="COLLTree2.004" >
+		<position z="1.933579" x="-10.729071" y="5.588696" />
+		<rotation qw="0.997516" qx="0.000000" qy="-0.070434" qz="-0.000000" />
+		<scale z="0.660141" x="0.660141" y="3.421162" />
+		<physics physics_type="static" collider_type="primitiveBox"   
+		isGhost="false" isConvex="false"/>
+	</node>
+	<!-- PLATAFORMAS MOVILES-->
+	<node name="Platform" >
+		<position z="0.138927" x="5.035972" y="2.811022" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />   
+		<entity   name="Platform"    meshFile="Platform.mesh"    />
+		<animation animFile="PlatformLvl2AnimationVert.anim" />
+		<node name="COLLPlatform" >
+			<position y="0.0" x="0.0" z="0.0" />
+			<rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+			<scale z="1.505085" x="2.003635" y="0.407186" />
+			<userDataReference>
+				<platform type="" />
+			</userDataReference>
+		</node>
+    </node>
+    <node name="Platform.001" >
+		<position z="-23.419458" x="23.796667" y="11.075638" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity   name="Platform.001"    meshFile="Platform.mesh"    />
+		<animation animFile="PlatformLvl2AnimationHorz.anim"/>
+		<node name="COLLPlatform.001" >
+			<position y="0.0" x="0.0" z="0.0" />
+			<rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+			<scale z="1.505085" x="2.003635" y="0.407186" />
+			<userDataReference>
+				<platform type="" />
+			</userDataReference>
+		</node>
+    </node>
+    <node name="Platform.002" >
+		<position z="-50.724976" x="24.240736" y="35.608429" />
+		<rotation qw="0.185814" qx="0.000000" qy="-0.982585" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity   name="Platform.002"    meshFile="Platform.mesh"    />
+		<animation animFile="PlatformLvl2AnimationHorz.anim"/>
+		<node name="COLLPlatform.002" >
+			<position y="0.0" x="0.0" z="0.0" />
+			<rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+			<scale z="1.505085" x="2.003635" y="0.407186" />
+			<userDataReference>
+				<platform type="" />
+			</userDataReference>
+		</node>
+    </node>
+
+	<node name="Platform.003" >
+		<position z="-38.216499" x="55.398834" y="15.229684" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<entity   name="Platform.003"    meshFile="Platform.mesh"    />
+		<animation animFile="PlatformLvl2AnimationVert.anim" />
+		<node name="COLLPlatform.003" >
+			<position y="0.0" x="0.0" z="0.0" />
+			<rotation qz="-0.000000" qy="0.000000" qx="0.000000" qw="1.000000" />
+			<scale z="1.505085" x="2.003635" y="0.407186" />
+			<userDataReference>
+				<platform type="" />
+			</userDataReference>
+		</node> 
+	</node>
+	<!--CHECKPOINTS-->
+	<node name="CheckPoint1" >
+		<position z="1.000577" x="-5.641871" y="1.507468" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="8.618836" x="8.710760" y="8.948618" />
+		<userDataReference>
+			<checkpoint type="default" />
+		</userDataReference>
+		<node name="SpawnPointCheckPoint1" >
+			<position z="0.167088" x="0.389544" y="0.202621" />
+			<rotation qw="0.601574" qx="0.000000" qy="-0.798817" qz="-0.000000" />
+			<scale z="1.000000" x="1.000000" y="1.000000" />  
+		</node>
+	</node>
+	<node name="CheckPoint2" >
+		<position z="-43.344284" x="56.340084" y="14.461285" />
+		<rotation qw="0.707107" qx="0.000000" qy="-0.707107" qz="-0.000000" />
+		<scale z="16.870146" x="13.209353" y="17.025745" />
+			<userDataReference>
+				<checkpoint  />
+			</userDataReference>
+		<node name="SpawnPointCheckPoint2" >
+			<position z="-0.108655" x="0.672797" y="0.058585" />
+			<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+			<scale z="1.000000" x="1.000000" y="1.000000" />	
+		</node>
+	</node>
+		
+	<!--EFECTOS DE PARTICULAS-->
+	<!-- <node name="clouds1Node" >
+		<position z="-24.234112" x="6.756722" y="-15.953179" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<particleSystem name="particlesClouds1" file="CloudBits"/>
+	</node> -->
+	<node name="clouds2Node" >
+		<position z="-24.234112" x="6.756722" y="-15.953179" />
+		<rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+		<scale z="1.000000" x="1.000000" y="1.000000" />
+		<particleSystem name="particlesClouds2" file="CloudBits2"/>
+	</node>
+	
+	</nodes>
+  
+   
+  <environment >
+    <fog mode="linear" start="20" end="300" >
+		<colour r="0.9" g="0.9" b="0.9" a="1"/>
+	</fog>
+	<skyBox material="skybox" distance="100" drawFirst="true" active="true"/>
+	<colourAmbient r="1" g="1" b="1" a="1"/>
+  </environment>
+  
+  
+</scene>

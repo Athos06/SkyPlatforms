@@ -1,0 +1,56 @@
+<GUILayout>
+    <Window Name="PauseMenuRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="PauseMenuRoot/topBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.191406,-26}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgTop" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="RiseOnClick" Value="False" />
+        </Window>
+        <Window Name="PauseMenuRoot/StaticImage" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0.00195313,0},{0.00651041,0},{0.373047,0},{0.227865,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:Pause" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Name="PauseMenuRoot/PlayButton" Type="TaharezLook/Button">
+			<Property Name="UnifiedAreaRect" Value="{{0.26,0},{-0.18,0},{0.635,0},{-0.01,0}}" />
+            <Property Name="Font" Value="f30" />
+            <Property Name="Text" Value="RESUME" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="PauseMenuRoot/OptionsButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.21,0},{-0.04,0},{0.585,0},{0.13,0}}" />
+            <Property Name="Font" Value="f30" />
+			<Property Name="Text" Value="OPTIONS" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="PauseMenuRoot/BackToMainButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.16,0},{0.1,0},{0.535,0},{0.27,0}}"  />
+            <Property Name="Font" Value="f30" />
+			<Property Name="Text" Value="BACK TO MENU" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="PauseMenuRoot/ExitButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.11,0},{0.24,0},{0.485,0},{0.41,0}}" />
+            <Property Name="Font" Value="f30" />
+			<Property Name="Text" Value="EXIT" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="PauseMenuRoot/ResumeButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{-0.397461,0},{0.40625,0},{-0.217461,0},{0.57625,0}}" />
+            <Property Name="Font" Value="f30" />
+			<Property Name="Text" Value="BACK" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

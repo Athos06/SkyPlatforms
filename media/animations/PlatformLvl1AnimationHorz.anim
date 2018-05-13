@@ -1,0 +1,16 @@
+<animation formatVersion="1.0.1" name="PlatformLvl1AnimationHorz" >
+	<keyframes length="10" interpolation="spline" speed="1">
+		<keyframe index="0" >
+			<position x="0.0" y="0.0" z="0.0" />
+			<rotation qx="0.000000" qy="0.000000" qz="-0.000000" qw="1.000000" />	  
+		</keyframe>
+		<keyframe index="5" >
+			<position x="20.0" y="0.0" z="0.0" />
+			<rotation qx="0.000000" qy="0.000000" qz="-0.000000" qw="1.000000" />	  
+		</keyframe>
+		<keyframe index="10" >
+			<position x="0.0" y="0.0" z="0.0" />
+			<rotation qx="0.000000" qy="0.000000" qz="-0.000000" qw="1.000000" />	  
+		</keyframe>
+	</keyframes>
+</animation>

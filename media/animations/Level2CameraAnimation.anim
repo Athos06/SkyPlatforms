@@ -1,0 +1,39 @@
+<animation formatVersion="1.0.1" name="Level2CameraAnimation"  >
+	<keyframes length="70" interpolation="linear" speed="1.0">
+		<!--pos1-->
+		<keyframe index="0" >
+			<position z="31.708317" x="-19.742695" y="24.601561" />
+			<rotation qz="-0.043548" qx="-0.256029" qy="-0.246943" qw="0.933580" />
+		</keyframe>
+		<!--pos2-->
+		<keyframe index="10" >
+			<position z="13.765357" x="42.521019" y="34.234657" />
+			<rotation qz="0.130089" qx="-0.206443" qy="0.385946" qw="0.889665" />
+		</keyframe>
+		<!--pos3-->
+		<keyframe index="20" >
+			<position z="-11.983025" x="81.496048" y="44.205204" />
+			<rotation qz="0.108024" qx="-0.214900" qy="0.367506" qw="0.898381" />
+		</keyframe>
+		<!--pos4-->
+		<keyframe index="35" >
+			<position z="-81.698509" x="64.249428" y="45.429726" />
+			<rotation qz="0.241158" qx="-0.040648" qy="0.906287" qw="0.344722" />
+		</keyframe>
+		<!--pos5-->
+		<keyframe index="45" >
+			<position z="-65.480873" x="-3.444735" y="47.450329" />
+			<rotation qz="-0.249999" qx="-0.066590" qy="-0.964461" qw="0.053675" />
+		</keyframe>
+		<!--pos6-->
+		<keyframe index="60" >
+			<position z="-9.591123" x="-42.003716" y="35.472866" />
+			<rotation qz="-0.193049" qx="-0.252252" qy="-0.645367" qw="0.694696" />
+		</keyframe>
+		<!--pos1-->
+		<keyframe index="70" >
+			<position z="31.708317" x="-19.742695" y="24.601561" />
+			<rotation qz="-0.043548" qx="-0.256029" qy="-0.246943" qw="0.933580" />
+		</keyframe>
+	</keyframes>
+</animation>

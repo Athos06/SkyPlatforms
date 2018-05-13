@@ -1,0 +1,22 @@
+<scene previous_export_time="1400870589.042707" exported_by="athos" export_time="1400870604.299579" formatVersion="1.0.1" >
+	<camera name="Camera#0" projectionType="perspective" name="MainCamera" fov="60" attached="false">
+		<clipping  near="0.10"  far="90.0" />
+	</camera>
+		
+	<lights>
+		<light name="DirectionalLight1" type="directional" castShadows="true">
+			<direction  x="-1" y="-1" z="0"/>
+			<colourDiffuse r="1" g="1" b="1" a="1" />
+			<colourSpecular r="0" g="0" b="0.3" a="1" />
+		</light>
+	</lights>
+
+  <nodes>
+	
+ </nodes>
+<environment >
+	<colourAmbient r="0" g="0" b="0" a="0"/>
+  </environment>
+
+  
+</scene>

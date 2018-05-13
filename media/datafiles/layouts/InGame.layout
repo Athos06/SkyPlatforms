@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Name="HUDroot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="HUDroot/lives" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{-0.341309,0},{-0.392578,0},{-0.0239258,0},{-0.177734,0}}" />
+            <Property Name="Image" Value="set:hud image:lives" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Window Name="HUDroot/livesText" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{0.135384,0},{-0.139394,0},{0.33072,0},{0.149267,0}}" />
+                <Property Name="Font" Value="f30" />
+                <Property Name="Text" Value="0" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+        <Window Name="HUDroot/skystones" Type="TaharezLook/StaticImage">
+             <Property Name="UnifiedAreaRect" Value="{{0.332031,0},{-0.39099,0},{0.666992,0},{-0.17224,0}}" />
+            <Property Name="Image" Value="set:hud image:skystones" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Window Name="HUDroot/skystonesText" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{-0.0772596,0},{-0.153484,0},{0.118076,0},{0.135177,0}}" />
+                <Property Name="Text" Value="0" />
+				<Property Name="Font" Value="f30" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+        </Window>  
+		<Window Name="HUDroot/innactiveWarning" Type="TaharezLook/StaticText">
+            <Property Name="UnifiedAreaRect" Value="{{0.000976567,0},{0.279948,0},{0.637695,0},{0.496093,0}}" />
+            <Property Name="Text" Value="THE PORTAL IS INNACTIVE. YOU NEED TO GATHER 4 SKYSTONES TO ACTIVATE IT" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+			<Property Name="Font" Value="f30" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="HUDroot/activePortalText" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0.366503,0},{0.27474,0},{0.633108,0},{0.736979,0}}" />
+            <Property Name="Image" Value="set:hud image:portalOpen" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

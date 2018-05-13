@@ -1,0 +1,228 @@
+material CloudBits
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			diffuse vertexcolour
+			//lighting off
+			//depth_write on
+			//scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture CloudBits.png
+			}
+		}
+	}
+}
+
+material CloudBits2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			diffuse vertexcolour
+			
+			texture_unit
+			{
+				texture CloudBits2.png
+			}
+		}
+	}
+}
+
+material BitSimple
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture BitSimple.png
+			}
+		}
+	}
+}
+
+material FireParticle
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture FireParticle.png
+			}
+		}
+	}
+}
+
+material SmokeParticle
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture SmokeParticle.png
+			}
+		}
+	}
+}
+
+
+material StepDust
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture StepDust.png
+			}
+		}
+	}
+}
+
+
+material Explosion2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				anim_texture StepDust.png 5 0.25
+				tex_address_mode clamp
+				 
+			}
+		}
+	}
+}
+
+
+
+material Triangle
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture TriangleParticle.png 
+			}
+		}
+	}
+}
+
+material Square
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture SquareParticle.png 
+			}
+		}
+	}
+}
+
+material Rectangle
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture RectangleParticle.png 
+			}
+		}
+	}
+}
+
+material SmallExplosion
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture SquareParticle.png 
+			}
+		}
+	}
+}
+
+
+
+material Triangle
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture TriangleParticle.png 
+			}
+		}
+	}
+}

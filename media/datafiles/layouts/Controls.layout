@@ -1,0 +1,213 @@
+<?xml version="1.0" ?>
+<GUILayout>
+<Window Name="ControlsRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="ControlsRoot/topBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.191406,-26}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgTop" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="RiseOnClick" Value="False" />
+        </Window>
+        <Window Name="ControlsRoot/BackButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{-0.397461,0},{0.40625,0},{-0.270508,50},{0.513021,50}}" />
+            <Property Name="Text" Value="BACK" />
+			<Property Name="Font" Value="f30" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="ControlsRoot/controlsTittle" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0.00195313,0},{0.00651041,0},{0.373047,0},{0.227865,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:controls" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Name="ControlsRoot/controlsBG" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0.00341806,0},{0.0143229,0},{0.971191,0},{0.610677,0}}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Window Name="ControlsRoot/controlsBG/ywx" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.0291982,0},{0.670695,0},{0.120765,0},{0.747299,0}}" />
+                <Property Name="Image" Value="set:imageset2 image:yawControl" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/pitch" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.0582525,0},{0.47171,0},{0.0920311,0},{0.647694,0}}" />
+                <Property Name="Image" Value="set:imageset2 image:pitchControl" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/moveControls" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.0433403,0},{0.0703929,0},{0.161801,0},{0.242237,0}}" />
+                <Property Name="Image" Value="set:imageset2 image:moveControls" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/zoom" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.0548565,0},{0.770186,0},{0.0955233,0},{0.892341,0}}" />
+                <Property Name="Image" Value="set:imageset2 image:zoomControl" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/space" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.0397213,0},{0.267081,0},{0.122238,0},{0.343686,0}}" />
+                <Property Name="Image" Value="set:imageset2 image:space" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/space2" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.0515091,0},{0.360136,0},{0.0976842,0},{0.453304,0}}" />
+                <Property Name="Image" Value="set:imageset2 image:esc" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/moveText" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{-0.142114,0},{-0.338039,0},{0.221961,0},{-0.23659,0}}" />
+                <Property Name="Text" Value="MOVE CHARACTER" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/jumpText" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{-0.147161,0},{-0.20209,0},{0.214896,0},{-0.110992,0}}" />
+                <Property Name="Text" Value="JUMP" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/pauseText" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{-0.150556,0},{-0.0864867,0},{0.209483,0},{0.00875157,0}}" />
+                <Property Name="Text" Value="PAUSE" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/pitchText" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{-0.156017,0},{0.054413,0},{0.199985,0},{0.149651,0}}" />
+                <Property Name="Text" Value="PITCH CAMERA" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/yawText" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{-0.163953,0},{0.20175,0},{0.199113,0},{0.296989,0}}" />
+                <Property Name="Text" Value="YAW CAMERA" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/zoomText" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{-0.167853,0},{0.330115,0},{0.184114,0},{0.425353,0}}" />
+                <Property Name="Text" Value="ZOOM CAMERA" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/cameraoptions" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{0.257482,0},{-0.342406,0},{0.621557,0},{-0.240957,0}}" />
+                <Property Name="Text" Value="CAMERA OPTIONS" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/sensitivity" Type="TaharezLook/Spinner">
+                <Property Name="UnifiedAreaRect" Value="{{0.164407,0},{0.252421,0},{0.364658,0},{0.403466,0}}" />
+                <Property Name="CurrentValue" Value="3" />
+                <Property Name="MaximumValue" Value="8" />
+                <Property Name="MinimumValue" Value="1" />
+				<Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				<Property Name="Font" Value="f30" />
+                <AutoWindow NameSuffix="__auto_editbox__">
+                    <Property Name="Text" Value="4" />
+                    <Property Name="ValidationString" Value="-?\d*" />
+                </AutoWindow>
+                <AutoWindow NameSuffix="__auto_incbtn__">
+                    <Property Name="WantsMultiClickEvents" Value="False" />
+                    <Property Name="MouseButtonDownAutoRepeat" Value="False" />
+                </AutoWindow>
+                <AutoWindow NameSuffix="__auto_decbtn__">
+                    <Property Name="WantsMultiClickEvents" Value="False" />
+                    <Property Name="MouseButtonDownAutoRepeat" Value="False" />
+                </AutoWindow>
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/yInvertCheck" Type="TaharezLook/Checkbox">
+                <Property Name="UnifiedAreaRect" Value="{{0.0958735,0},{-0.0860841,0},{0.147347,0},{0.0239158,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/xInvertCheck" Type="TaharezLook/Checkbox">
+                <Property Name="UnifiedAreaRect" Value="{{0.0978227,0},{-0.214909,0},{0.151314,0},{-0.104909,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/xaxis" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{0.295827,0},{-0.213585,0},{0.61954,0},{-0.112136,0}}" />
+                <Property Name="Text" Value="INVERT X AXIS" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/yaxis" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{0.295827,0},{-0.0825806,0},{0.61954,0},{0.0188684,0}}" />
+                <Property Name="Text" Value="INVERT Y AXIS" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+            <Window Name="ControlsRoot/controlsBG/sensitivitytext" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{0.230237,0},{0.0724412,0},{0.553948,0},{0.17389,0}}" />
+                <Property Name="Text" Value="SENSITIVITY" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				<Property Name="Font" Value="f30" />
+            </Window>
+	    </Window>
+	</Window>
+</GUILayout>
